@@ -1,16 +1,16 @@
-<h1>my lista</h1>
+<h1>Mi Lista</h1>
 
 <table>
     <tr>
-        <th>
-            Item
-        </th>
-        {% for task in object_list %}
+        <th>Tareas</th>
+        <th></th> <!-- Campo vacío para organizar vista de tabla-->
     </tr>
+    {% for task in tasks %}
     <tr>
         <td>{{task.title}}</td>
+        <td><a href="{% url 'task' task.id %}">Ver</a></td>
     </tr>
     {% empty %}
-    <h3>No items in list</h3>
-        {% endfor %}
+    <h3>No hay mas tareas en la lista</h3>
+    {% endfor %}
 </table>
