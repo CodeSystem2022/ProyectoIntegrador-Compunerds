@@ -1,10 +1,23 @@
-<h1>Mi Lista</h1>
+{% if request.user.is_authenticated %}
+<p>{{request.user}}</p>
+<a href="{% url 'logout' %}">Cerrar Sesión</a> {% else %}
+<a href="{% url 'login' %}">Iniciar Sesión</a> {% endif %}
+
+<hr>
+<h1>Mi Lista {{color}}</h1>
+
 <a href="{% url 'task-create'%}">Agregar Tarea</a>
+
+<form method="GET">
+    <input type='text' name='search-area' value="{{search_input}}">
+    <input class="button" type="submit" value='Search'>
+</form>
 
 <table>
     <tr>
-        <th>Tareas</th>
+        <th>Tarea</th>
         <th></th> <!-- Campo vacío para organizar vista de tabla-->
+        <th></th>
     </tr>
     {% for task in tasks %}
     <tr>

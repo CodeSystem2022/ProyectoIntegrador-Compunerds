@@ -2,7 +2,7 @@
 <a href="{% url 'tasks' %}">ir atras</a>
 
 <form method="POST" action="">
-    {% csrf_token %}
+    {% csrf_token %} <!-- Token de Seguridad -->
     {{ form.as_p }}
     <input type="submit" value="submit">
 </form>
