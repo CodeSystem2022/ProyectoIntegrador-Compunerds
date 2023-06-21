@@ -1,4 +1,5 @@
 <h1>Mi Lista</h1>
+<a href="{% url 'task-create'%}">Agregar Tarea</a>
 
 <table>
     <tr>
@@ -9,6 +10,8 @@
     <tr>
         <td>{{task.title}}</td>
         <td><a href="{% url 'task' task.id %}">Ver</a></td>
+        <td><a href="{% url 'task-update' task.id%}">Editar</a></td>
+        <td><a href="{% url 'task-delete' task.id%}">Eliminar</a></td>
     </tr>
     {% empty %}
     <h3>No hay mas tareas en la lista</h3>
