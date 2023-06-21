@@ -1,0 +1,8 @@
+<h3>Formulario de tareas</h3>
+<a href="{% url 'tasks' %}">volver atras</a>
+
+<form method="POST" action="">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="submit">
+</form>
