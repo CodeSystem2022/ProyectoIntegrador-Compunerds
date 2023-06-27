@@ -2,15 +2,17 @@
 {% block content %}
 
 <div class="header-bar">
-    <a href="{% url 'tasks' %}">&#8592; Atras</a>
+    <h1>Iniciar sesión!</h1>
 </div>
 
 <div class="card-body">
     <form method="POST">
         {% csrf_token %}
-        <p>¿Estas seguro de que quiere eliminar esta tarea? "{{task}}"</p>
-        <input class="button" type="submit" value="Delete" />
+        {{form.as_p}}
+        <input class="button" type="submit" value="Login">
     </form>
+    <p>¿No tienes una cuenta? <a href="{% url 'register' %}">Registrarse</a></p>
 </div>
+
 
 {% endblock content %}
