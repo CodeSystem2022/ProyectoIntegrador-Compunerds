@@ -15,38 +15,38 @@ from .models import Task
 
 # Create your views here.
 class CustomLoginView(LoginView):
-    template_name = "base/login.html"
-    fields = "__all__"
-    redirect_authenticated_user = True
+    template_name = "base/login.html" ## Especifica la plantilla que va a utilizar
+    fields = "__all__" ## __all__ muestra todos los campos del formularios. En otro caso, se proporciona una lista
+    redirect_authenticated_user = True ## Evita que usuarios autenticados vuelvan a la pág inicio de sesión
 
-    def get_success_url(self):
+    def get_success_url(self): ## Este método se utiliza para obtener la URL de éxito luego de un inicio de sesión exitoso
         return reverse_lazy("tasks")
 
 
 class RegisterPage(FormView):
     template_name = "base/register.html"
-    form_class = UserCreationForm
+    form_class = UserCreationForm ## Este es un formulario predefinido de Django para el registro de usuarios
     redirect_authenticated_user = True
     success_url = reverse_lazy("tasks")
 
-    def form_valid(self, form):
+    def form_valid(self, form): ## Aquí se guarda el usuario registrado y se realiza el inicio de sesión automático
         user = form.save()
         if user is not None:
             login(self.request, user)
         return super(RegisterPage, self).form_valid(form)
 
-    def get(self, *args, **kwargs):
+    def get(self, *args, **kwargs): ## Esto evita que los usuarios autenticados accedan a la página de registro
         if self.request.user.is_authenticated:
             return redirect("tasks")
         return super(RegisterPage, self).get(*args, **kwargs)
 
 
-class TaskList(LoginRequiredMixin, ListView):
+class TaskList(LoginRequiredMixin, ListView): 
     model = Task
     context_object_name = "tasks"
 
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
+    def get_context_data(self, **kwargs): ## Modifica el contexto para filtrar, cuenta las tareas incompletas y realiza una búsqueda si se solicita
+        context = super().get_context_data(**kwargs)  
         context["tasks"] = context["tasks"].filter(user=self.request.user)
         context["count"] = context["tasks"].filter(complete=False).count()
 
@@ -72,7 +72,7 @@ class TaskCreate(LoginRequiredMixin, CreateView):
     fields = ["title", "description", "complete"]  ## establecemos los campos
     success_url = reverse_lazy("tasks")  ##establecemos valor de redireccion
 
-    def form_valid(self, form):
+    def form_valid(self, form): ## Esto asegura que la tarea creada esté asociada al usuario que la creó
         form.instance.user = self.request.user
         return super(TaskCreate, self).form_valid(form)
 
