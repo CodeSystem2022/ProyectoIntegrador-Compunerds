@@ -1,6 +1,9 @@
-<a href="{% url 'tasks'%}">ir atras</a>
+{%extends 'base/main.html'%}
+{%block content%}
+<a href="{% url 'tasks'%}">Volver atras</a>
 <form method="POST">
     {% csrf_token %}
     <p>¿Estas seguro de que quiere eliminar esta tarea? "{{task}}"</p>
     <input type="submit" value="Delete" />
 </form>
+{%endblock content%}
