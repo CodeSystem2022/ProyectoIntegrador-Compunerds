@@ -6,11 +6,11 @@
         <h1>Hola {{request.user}}</h1>
         <h3 style="margin: 0;">Tienes <i>{{count}}</i> tareas incompletas</h3>
     </div>
+    {% if request.user.is_authenticated %}
+    <!-- <p>{{request.user}}</p> -->
+    <a href="{% url 'logout' %}">Cerrar Sesión</a> {% else %}
+    <a href="{% url 'login' %}">Iniciar Sesión</a> {% endif %}
 </div>
-{% if request.user.is_authenticated %}
-<!-- <p>{{request.user}}</p> -->
-<a href="{% url 'logout' %}">Cerrar Sesión</a> {% else %}
-<a href="{% url 'login' %}">Iniciar Sesión</a> {% endif %}
 
 <hr>
 <h1>Mi Lista {{color}}</h1>
