@@ -48,7 +48,7 @@ Esta aplicación fue diseñada pensando en nuestras necesidades y las de nuestro
 
 <br> 
 <p align="center">
-🌟 ¡Disfruta gestionando tus tareas de una manera eficiente y personalizada con nuestra aplicación **TO-DO LIST**! 🌟
+🌟 ¡Disfruta gestionando tus tareas de una manera eficiente y personalizada con nuestra aplicación <b>TO-DO LIST</b>! 🌟
 </p>
 <br> 
 <br> 
@@ -58,11 +58,14 @@ Esta aplicación fue diseñada pensando en nuestras necesidades y las de nuestro
 </p>  
 
 <br> 
+<br> 
 
-## 👨‍🚀 Integrantes 👩‍🚀
-
-- **[Carla Faes](https://github.com/carlafaes)**
-- **[Giuliana Dealbera](https://github.com/GiulianaDeEt)**
-- **[Kevin Sosa](https://github.com/kvnsosa)**
-- **[Nicolas Segovia](https://github.com/Nico-Segovia)**
+<h2 align="center"> 🚀 Integrantes 🚀 </h2>
+<br> 
+<p align="center"><b>
+👩‍🚀 <a href="https://github.com/carlafaes">Carla Faes</a>&nbsp;&nbsp;&nbsp;&nbsp;
+👩‍🚀 <a href="https://github.com/GiulianaDeEt">Giuliana Dealbera</a>&nbsp;&nbsp;&nbsp;&nbsp;
+👨‍🚀 <a href="https://github.com/kvnsosa">Kevin Sosa</a>&nbsp;&nbsp;&nbsp;&nbsp;
+👨‍🚀 <a href="https://github.com/Nico-Segovia">Nicolas Segovia</a>
+</b></p>
 
