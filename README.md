@@ -11,9 +11,9 @@
 <br> 
 <br> 
 
-¡Bienvenido/a a nuestra aplicación de gestión de tareas desarrollada por el grupo de trabajo **CompuNerds** de la facultad de **San Rafael**! 🚀
+¡Bienvenido/a a nuestra aplicación de gestión de tareas desarrollada por el grupo de trabajo **CompuNerds** de la  **Universidad de San Rafael**! 🚀
 
-Con nuestra aplicación, podrás organizar y gestionar tus tareas de manera eficiente y segura. Utilizamos Django, un poderoso framework de desarrollo web, para brindarte una experiencia personalizada y minimalista. Espero que la disfrutes tanto de ella utilizandola como nosotros desarrollandola! 🖖✌️
+Con nuestra aplicación, podrás organizar y gestionar tus tareas de manera eficiente y segura. Utilizamos Django, un poderoso framework de desarrollo web, para brindarte una experiencia personalizada y minimalista. Espero que disfrutes tanto de ella utilizandola como nosotros desarrollandola! 🖖✌️
 
 <br> 
 <br> 
