@@ -52,15 +52,15 @@ Esta aplicación fue diseñada pensando en nuestras necesidades y las de nuestro
 </p>
 <br> 
 <br> 
+<br> 
 
 <p align="center">
 <img src="https://github.com/CodeSystem2022/ProyectoIntegrador-Compunerds/assets/86338019/ed0cdd4b-548f-45a8-b561-6d83939d421c" alt="Logo de la aplicación" align="center" height="200">
 </p>  
-
 <br> 
 <br> 
 
-<h2 align="center"> 🚀 Integrantes 🚀 </h2>
+<h2 align="center"> 🚀 Tripulantes 🚀 </h2>
 <br> 
 <p align="center"><b>
 👩‍🚀 <a href="https://github.com/carlafaes">Carla Faes</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -68,4 +68,12 @@ Esta aplicación fue diseñada pensando en nuestras necesidades y las de nuestro
 👨‍🚀 <a href="https://github.com/kvnsosa">Kevin Sosa</a>&nbsp;&nbsp;&nbsp;&nbsp;
 👨‍🚀 <a href="https://github.com/Nico-Segovia">Nicolas Segovia</a>
 </b></p>
+<br> 
+<br> 
+
+
+
+***
+***
+
 
