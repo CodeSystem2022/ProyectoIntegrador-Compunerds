@@ -2,11 +2,8 @@
   <img src="https://github.com/CodeSystem2022/ProyectoIntegrador-Compunerds/assets/86338019/2c1e977d-17ff-41a7-a3cd-994411e497fe" alt="LogoAnimado" width="100%" height="400">
 </p>  
 
-<h1 align="center"> TODO LIST Project  <img src="https://github.com/CodeSystem2022/ProyectoIntegrador-Compunerds/assets/86338019/bf80ab54-bbc0-4389-9933-1f4338c5548d" alt="icono" width="60" height="60"></h1>
+<h1 align="center"> TODO LIST Project            <img src="https://github.com/CodeSystem2022/ProyectoIntegrador-Compunerds/assets/86338019/bf80ab54-bbc0-4389-9933-1f4338c5548d" alt="icono" width="60" height="60"></h1>
 
-<h3 align="center"> Aplicación realizada con Django Framework </h3>
-
-<br>
 <br> 
 <br> 
 <br> 
@@ -15,7 +12,6 @@
 
 Con nuestra aplicación, podrás organizar y gestionar tus tareas de manera eficiente y segura. Utilizamos Django, un poderoso framework de desarrollo web, para brindarte una experiencia personalizada y minimalista. Espero que disfrutes tanto de ella utilizandola como nosotros desarrollandola! 🖖✌️
 
-<br> 
 <br> 
 <br> 
 <br> 
@@ -29,13 +25,19 @@ Con nuestra aplicación, podrás organizar y gestionar tus tareas de manera efic
 
 - **Sistema de autenticación de usuarios:** Regístrate, inicia sesión y cierra sesión de manera segura. Cada usuario tiene acceso exclusivo a sus propias tareas, lo que garantiza la privacidad y la confidencialidad de la información.
 
+<br> 
+
 ## Mejores prácticas y diseño atractivo
 
 Hemos seguido las mejores prácticas de desarrollo de Django, implementando validación de formularios y asegurando una estructura de código sólida. Además, hemos creado un diseño atractivo y fácil de usar, para que la experiencia de gestionar tus tareas sea agradable y motivadora.
 
+<br> 
+
 ## Privacidad y seguridad garantizadas
 
 Nos tomamos muy en serio la privacidad y seguridad de tus datos. Nuestra aplicación protege tus tareas personales y te brinda la tranquilidad de que solo tú tendrás acceso a ellas.
+
+<br> 
 
 ## Útil para estudiantes de la facultad de "San Rafael"
 
@@ -43,14 +45,19 @@ Esta aplicación fue diseñada pensando en nuestras necesidades y las de nuestro
 
 ¡Estamos orgullosos de ofrecerte esta aplicación y esperamos que te sea de gran utilidad! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros.
 
-🌟 ¡Disfruta gestionando tus tareas de una manera eficiente y personalizada con nuestra aplicación **TO-DO LIST**! 🌟
 
+<br> 
+<p align="center">
+🌟 ¡Disfruta gestionando tus tareas de una manera eficiente y personalizada con nuestra aplicación **TO-DO LIST**! 🌟
+</p>
+<br> 
 <br> 
 
 <p align="center">
 <img src="https://github.com/CodeSystem2022/ProyectoIntegrador-Compunerds/assets/86338019/ed0cdd4b-548f-45a8-b561-6d83939d421c" alt="Logo de la aplicación" align="center" height="200">
 </p>  
 
+<br> 
 
 ## 👨‍🚀 Integrantes 👩‍🚀
 
