@@ -14,37 +14,33 @@ Con nuestra aplicación, podrás organizar y gestionar tus tareas de manera efic
 
 <br> 
 <br> 
-<br> 
 
-
-## Características destacadas
+<details> 
+  <summary><H3>Características destacadas</H3></summary>
 
 - **Gestión completa de tareas:** Crea, visualiza, edita, marca como completadas y elimina tareas según tus necesidades. Mantén un control total sobre tu lista de pendientes.
 
 - **Filtro de búsqueda:** Encuentra rápidamente tareas específicas con nuestro filtro de búsqueda integrado. Ahorra tiempo y mantén el enfoque en lo más importante.
 
 - **Sistema de autenticación de usuarios:** Regístrate, inicia sesión y cierra sesión de manera segura. Cada usuario tiene acceso exclusivo a sus propias tareas, lo que garantiza la privacidad y la confidencialidad de la información.
-
-<br> 
-
-## Mejores prácticas y diseño atractivo
+</details> 
+<details> 
+  <summary><H3>Mejores prácticas y diseño atractivo</summary></H3></summary>
 
 Hemos seguido las mejores prácticas de desarrollo de Django, implementando validación de formularios y asegurando una estructura de código sólida. Además, hemos creado un diseño atractivo y fácil de usar, para que la experiencia de gestionar tus tareas sea agradable y motivadora.
-
-<br> 
-
-## Privacidad y seguridad garantizadas
+</details> 
+<details> 
+  <summary><H3>Privacidad y seguridad garantizadas</H3></summary>
 
 Nos tomamos muy en serio la privacidad y seguridad de tus datos. Nuestra aplicación protege tus tareas personales y te brinda la tranquilidad de que solo tú tendrás acceso a ellas.
-
-<br> 
-
-## Útil para estudiantes de la facultad de "San Rafael"
+</details> 
+<details> 
+  <summary><H3>Útil para estudiantes de la facultad de "San Rafael"</H3></summary>
 
 Esta aplicación fue diseñada pensando en nuestras necesidades y las de nuestros compañeros. Sabemos lo ocupados que puedes estar y cómo una gestión eficiente de tareas puede marcar la diferencia. Nuestra aplicación **TO-DO LIST** es una herramienta poderosa para ayudarte a organizar tus actividades académicas y personales.
 
 ¡Estamos orgullosos de ofrecerte esta aplicación y esperamos que te sea de gran utilidad! Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto con nosotros.
-
+</details>
 
 <br> 
 <p align="center">
