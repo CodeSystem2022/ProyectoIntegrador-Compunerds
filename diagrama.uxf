@@ -1,0 +1,65 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>620</x><y>80</y><w>210</w><h>130</h></coordinates><panel_attributes>Persona
+--
+_nombre:String
+_apellido:String
+--
+get nombre()
+set nombre(String)
+get apellido()
+set apellido(String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>620</x><y>280</y><w>210</w><h>160</h></coordinates><panel_attributes>TareaBase
+--
+_titulo:String
+_descripcion:String
+_compleatada:Bool
+_creada:Date
+_usuario:String
+--
+crear()
+actualizar()
+eliminar()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>200</y><w>90</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>80</y><w>210</w><h>200</h></coordinates><panel_attributes>Usuario
+--
+_nombre_de_usaurio:String
+_email:email
+_nombre:String
+_apellido:String
+_es_personal:Bool
+_es_activo:Bool
+_fecha_registro:Date
+--
+iniciar_sesion()
+cerrar_sesion()
+registro()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>130</y><w>130</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>340</y><w>160</w><h>50</h></coordinates><panel_attributes>CierreSesion
+--
+cerrar_sesion_usuario()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>310</x><y>340</y><w>190</w><h>110</h></coordinates><panel_attributes>Registro
+--
+_nombre_de_usuario:String
+_contraseña:String
+_confirmar_contraseña:String
+--
+registrar_usuario()
+confirmar_contraseña()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>80</x><y>180</y><w>160</w><h>100</h></coordinates><panel_attributes>InicioSesion
+--
+_nombre_de_usuario:String
+_contraseña:String
+--
+autenticar()
+iniciar_sesion_usuario()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>230</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>270</y><w>100</w><h>90</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;70;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>270</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>620</x><y>510</y><w>210</w><h>110</h></coordinates><panel_attributes>ListaTareas
+--
+_nombre:String
+_tareas:List&lt;Tarea&gt;
+--
+agregar_tarea()
+eliminar_tarea()
+ver_tarea()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>510</y><w>210</w><h>160</h></coordinates><panel_attributes>Tarea
+--
+_descripcion:String
+_completada:Bool
+_Creada:Date
+_lista_tarea:List&lt;String&gt;
+--
+crear()
+actualizar()
+eliminar()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>710</x><y>430</y><w>90</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>560</y><w>110</w><h>40</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element></diagram>
